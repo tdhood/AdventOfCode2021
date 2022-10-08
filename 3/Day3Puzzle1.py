@@ -15,7 +15,7 @@ counts_by_column = [
 
 
 
-with open(r'C:\Users\taylo\Desktop\Hacking\Coding\Advent2021\3\day3data.py') as f:
+with open(r'/home/kestrel/Documents/CodingProjects/Advent2021/3/day3data.py') as f:
     lines = f.readlines()
     for line in lines:
         for column, bit in enumerate(line):
